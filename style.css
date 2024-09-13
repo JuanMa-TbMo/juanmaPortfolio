@@ -18,6 +18,7 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+  margin-top: 10px;
 }
 
 /* TRANSITION */
@@ -427,6 +428,14 @@ article .icon {
 .project-img:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   
+}
+
+.downloadlink{
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .project-img-container {
   position: relative;
