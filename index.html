@@ -171,7 +171,7 @@
           <p>Built with, JavaSript,HTML,CSS</p>
           <div class="article-container">
             <div class="project-3-img-container">
-             <a href="./assets/Main 2024-09-10 15-27-45.mp4" download="VolandoUyVideo.zip" class="downloadlink">
+             <a href="./assets/VolandoUy.exe" download="VolandoUy.exe" class="downloadlink">
             <img src="./assets/project-3.png" alt="project 3" class="project-img project-1"> </a>
             <div class="video-overlay">
               <video autoplay loop muted>
@@ -184,7 +184,17 @@
           <h2 class="experience-sub-title project-tit
           ">Java Aplication</h2>
           <div class="btn-container">
-            <button class="btn btn-color-1 " onclick="location.href='https://juanma-tbmo.github.io/pescayMar/'">Inspect</button>
+            
+            <button class="btn btn-color-1 " onclick="descargar()" >Inspect</button>
+            <script>
+              function descargar() {
+                  const link = document.createElement('a');
+                  link.href = './assets/VolandoUy.exe';
+                  link.download = 'VolandoUy.exe';
+                  link.click();
+              }
+          </script>
+            
           </div>
           <p>Built with, Java</p>
           
